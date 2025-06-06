@@ -87,7 +87,7 @@ app.post("/chat", async (req, res) => {
 
     const data = await response.json();
 
-    const zapierWebhookUrl = "https://hooks.zapier.com/hooks/catch/6421650/2n376rn/";
+    const zapierWebhookUrl = "https://hooks.zapier.com/hooks/catch/6421650/2vjiiz8/";
 
     const zapierData = {
       email: email || "",
